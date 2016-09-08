@@ -1,0 +1,28 @@
+.main{
+	width:390px;
+	height:1000px;
+	margin:10px auto;
+	background:#EEEEEE;
+}
+.bar-top{
+	height:50px;
+	width:390px;
+	background:#dedede;
+	
+}
+.left{
+	height:25px;
+	width:20%;
+	float:left;
+}
+.title{
+	height:25px;
+	width:60%;
+	float:left;
+}
+.right{
+	height:25px;
+	width:20%;
+	float:left;
+	
+}

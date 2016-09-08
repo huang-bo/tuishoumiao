@@ -1,0 +1,612 @@
+/* 公共样式 ---------------------------*/
+body{
+	font-family:'\5FAE\8F6F\96C5\9ED1','\9ED1\4F53','\5B8B\4F53';
+}
+img{
+	margin:0px;
+	padding:0px;
+}
+.to-pointer{
+	cursor:pointer;
+}
+.to-bold{
+	font-weight:bold;
+}
+.border-line{
+	border-bottom:2px solid #DEDEDE;
+}
+.font-p{
+	color:#999999;
+}
+.p-width{
+	width:200px;
+	height:40px;
+}
+/* 顶栏红色字 */
+.word-center{
+	text-align:center;
+	color:#EE4533;
+	font-weight:bold;
+}
+/* 文字居中 */
+.to-center{
+	text-align:center;
+}
+.to-left{
+	text-align:left;
+}
+/* 每个块距离顶部的距离 */
+.block-margin{
+	 margin-top:100px;
+	 border-bottom:2px solid #DEDEDE;
+}
+.block-padding{
+	padding-top:100px;
+}
+.block-bg{
+	background:#2F2F2F;
+}
+.block-position{
+	position:relative;
+}
+.row-margin{
+	margin-bottom:100px;
+}
+.del-shadow{
+	border:none;
+	box-shadow:none;
+}
+/* ----------------------------------------------------------------------------- */
+/* 顶栏 */
+.top{
+	width:100%;
+	position:relative;
+}
+.del-margin{
+	padding:0px;
+}
+.top-img{
+	width:100%;
+	height:auto;
+}
+/* logo栏 */
+.float-nav{
+	width:100%;
+	background:#2F2F2F;
+	height:auto;
+	position:fixed;
+	z-index:10000;
+	top:0px;
+	left:0px;
+}
+.span-nav{
+	margin-top:5px;
+	font-size:1.2em;
+	color:#FFFFFF;
+	text-align:right;
+}
+
+.span-nav a:link {color: #FFFFFF;text-decoration:none;}		/* 未访问的链接 */
+.span-nav a:visited {color: #FFFFFF;text-decoration:none;}	/* 已访问的链接 */
+.span-nav a:hover {color: #799DF2;text-decoration:none;}	/* 鼠标移动到链接上 */
+.span-nav a:active {color: #FFFFFF;text-decoration:none;}	/* 选定的链接 */
+
+.span-nav span{
+	margin-left:20px;
+}
+/* 广告 */
+.banner-pic{
+	background:red;
+	position:absolute;
+	top:368px;
+	left:400px;
+}
+/* 广告图 */
+	#imgTwo,#imgThree{
+		width:55%;
+		height:50%;
+		position:absolute;
+		top:50%;
+		left:25%;
+	}
+	#imgOne{
+		width:58%;
+		height:50%;
+		position:absolute;
+		top:50%;
+		left:21.5%;
+	}
+/* #imgTwo,#imgThree{
+	position:absolute;
+	top:50%;
+	left:30%;
+}
+#imgOne{
+	position:absolute;
+	top:50%;
+	left:21%;
+} */
+/* 侧栏 */
+.tip-footer{
+	clear:all;
+}
+.tip-box{
+	position:fixed;
+	width:100px;
+	right:0;
+	top:10%;
+	z-index:10000;
+}
+.qq-img,.back-img{
+	float:left;
+}
+.back-img{
+	margin-top:5px;
+}
+/* ------ */
+/* 喵家族  */
+.familyContent{
+	margin-top:45px
+}
+.family{
+	width:300px;
+	height:100px;
+	margin:auto;
+}
+.family h3{
+	text-align:center;
+}
+.line{
+	height:3px;
+	width:130px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:4px;
+	background:#DEDEDE;
+}
+.miaomeiti{
+	border:none;
+	box-shadow:none;
+	/* width:270px;
+	height:148px; */
+}
+.miaomeiti img{
+	border:none;
+}
+.icon,.word{
+	float:left;
+}
+.word{
+	margin-left:10px;
+	width:230px;
+	height:70px;
+}
+/* 箭头 */
+.jiantou,.jiantou2{
+	width:30px;
+	height:40px;
+	position:absolute;
+}
+.jiantou{
+	top:110px;
+	left:-20px;
+}
+.jiantou2{
+	top:110px;
+	left:300px;
+}
+.left{
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); 	/* IE 9 */
+	-moz-transform:rotate(180deg); 	/* Firefox */
+	-webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+	-o-transform:rotate(180deg); 	/* Opera */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);/*IE8以下的图片旋转 0 1 2 3 代表旋转 0 90 180 270 度*/
+}
+/* 喵实力 */
+.miaoshili{
+	width:150px;
+	height:200px;
+	border:none;
+	box-shadow:none;
+}
+.fengexian{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.shili-p{
+	width:120px;
+	overflow:hidden;
+	height:auto;
+}
+/* 纠正推手图片高度 */
+.tuishou{
+	height:44px;
+	width:46px;
+}
+/* 谁是喵主 */
+#baobao{
+	position:absolute;
+	top:40%;
+	left:0;
+}
+#mz-content{
+	position:absolute;
+	top:0;
+	left:0;
+}
+.miaotou{
+	width:114px;
+	height:103px;
+	background:transparent;
+	/* position:absolute;
+	top:220px;
+	left:620px; */
+}
+.miaotou img{
+	border:none;
+	box-shadow:none;
+}
+/* 喵主人 */
+.content,.content2,.content3,.content4{
+	width:320px;
+	height:120px;
+	position:absolute;
+	
+}
+.content{
+	top:0px;
+	right:55.5%;
+}
+.content2{
+	top:200px;
+	right:55.5%;
+}
+.content3{
+	top:0px;
+	left:55.5%;
+}
+.content4{
+	top:200px;
+	left:55.5%;
+}
+.jieshao{
+	width:210px;
+	height:120px;
+	text-align:right;
+	color:#FFFFFF;
+}
+.jieshao2{
+	width:210px;
+	height:120px;
+	text-align:left;
+	color:#FFFFFF;
+}
+.person{
+	width:80px;
+	height:80px;
+	margin-top:20px;
+	margin-left:20px;
+}
+.person2{
+	width:80px;
+	height:80px;
+	margin-top:20px;
+	margin-right:20px;
+}
+.person,.jieshao,.person2,.jieshao2{
+	float:left;
+}
+/* 套餐 */
+.h1-top{
+	margin-top:200%;
+	margin-left:10%;
+}
+.taocan td{
+	text-align:center;
+}
+.select-btn{
+	width:180px;
+	height:110px;
+	background:#EE4533;
+	color:#FFFFFF;
+}
+.select-btn h4{
+	text-align:center;
+	margin-top:45px;
+}
+.bottom-line{
+	border-bottom:1px solid #F16A5C;
+}
+.tr-height{
+	text-align:center;
+	height:63px;
+}
+.buy-btn{
+	width:80%;
+	height:120%;
+	padding-left:15%;
+	margin-left:10%;
+	background:#EE4533;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	border-radius:20px;
+	
+}
+/* 广告条 */
+.ad {
+	width:45%;
+	height:50%;
+	position:absolute;
+	top:25%;
+	left:18%;
+	text-align:center;
+}
+.h2-shadow{
+	text-shadow: -35px -3px 15px #EF9506;
+}
+.h2-shadow2{
+	text-shadow: 35px -3px 15px #EF9506;
+}
+.guanggao-btn{
+	background:transparent;
+	width:143px;
+	height:37px;
+	position:absolute;
+	top:35%;
+	left:64%;
+}
+#animation-h2{
+	animation:myfirst 5s linear 2s infinite alternate;
+	/* Firefox: */
+	-moz-animation:myfirst 5s linear 2s infinite alternate;
+	/* Safari and Chrome: */
+	-webkit-animation:myfirst 5s linear 2s infinite alternate;
+	/* Opera: */
+	-o-animation:myfirst 5s linear 2s infinite alternate;
+}
+
+	@keyframes myfirst{
+	0%   {color:red; margin-left:0px;}
+		25%  {color:yellow; margin-left:-15px;}
+		50%  {color:green; margin-left:-25px;}
+		75%  {color:green; margin-left:-15px;}
+		100% {color:red;margin-left:0px;}
+	}
+
+	@-moz-keyframes myfirst{ /* Firefox */
+		0%   {color:red; margin-left:0px;}
+		25%  {color:yellow; margin-left:-15px;}
+		50%  {color:green; margin-left:-25px;}
+		75%  {color:green; margin-left:-15px;}
+		100% {color:red;margin-left:0px;}
+	}
+
+	@-webkit-keyframes myfirst{ /* Safari and Chrome */
+		0%   {color:red; margin-left:0px;}
+		25%  {color:yellow; margin-left:-15px;}
+		50%  {color:green; margin-left:-25px;}
+		75%  {color:green; margin-left:-15px;}
+		100% {color:red;margin-left:0px;}
+	}
+
+	@-o-keyframes myfirst{ /* Opera */
+	0%   {color:red; margin-left:0px;}
+		25%  {color:yellow; margin-left:-15px;}
+		50%  {color:green; margin-left:-25px;}
+		75%  {color:green; margin-left:-15px;}
+		100% {color:red;margin-left:0px;}
+	}
+/* .ad h3{
+	width:90%;
+	height:90%;
+	margin:auto;
+	text-align:center;
+	background:#DEDEDE;
+	filter:alpha(opacity=10);  
+	-moz-opacity:0.1;  
+	-khtml-opacity: 0.1;  
+	opacity: 0.1;  
+} */
+
+/* 流程样式 */
+.a{
+	/* width:100px;
+	height:119px; */
+}
+.left-padding{
+	margin-left:65px;
+}
+.process,.process2,.process3,.process4,.process5{
+	width:100px;
+	height:150px;
+	border:none;
+	box-shadow:none;
+	position:absolute;
+	
+}
+.process{
+	top:-20px;
+	left:22%;
+}
+.process2{
+	top:-20px;
+	left:32%;
+}
+.process3{
+	top:-20px;
+	left:44%;
+}
+.process4{
+	top:-20px;
+	left:56%;
+}
+.process5{
+	top:-20px;
+	left:67%;
+}
+/* 喵主说 */
+.evaluation{
+	width:300px;
+	height:100px;
+	margin:auto;
+}
+.zhushuo img{
+	
+}
+.zhu-img{
+	position:absolute;
+	top:25px;
+	left:90px;
+}
+.zhu-content{
+	position:absolute;
+	height:160px;
+	width:220px;
+	top:150px;
+	left:51px;
+}
+.to-red{
+	color:#E54C3C;
+	font-weight:bold;
+}
+.to-white{
+	color:#FFFFFF;
+	font-weight:bold;
+}
+.to-black{
+	color:#333333;
+	font-weight:bold;
+}
+/* 喵案例 */
+.case-dialog,.case-dialog2{
+	width:450px;
+	height:160px;
+}
+.turn-img{
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); 	/* IE 9 */
+	-moz-transform:rotate(180deg); 	/* Firefox */
+	-webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+	-o-transform:rotate(180deg); 	/* Opera */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);/*IE8以下的图片旋转 0 1 2 3 代表旋转 0 90 180 270 度*/
+}
+.img-margin{
+	margin-bottom:40px;
+}
+/* 内容 */
+.case-img{
+	width:120px;
+	height:120px;
+	position:absolute;
+	top:15%;
+	left:10%;
+	
+}
+.case-content{
+	width:40%;
+	height:40%;
+	position:absolute;
+	top:20%;
+	left:40%;
+}
+.try-img{
+	width:92px;
+	height:23px;
+	position:absolute;
+	top:60%;
+	left:40%;
+	
+}
+.try{
+	width:20%;
+	height:15%;
+	font-size:0.8em;
+	position:absolute;
+	top:60%;
+	left:44%;
+}
+.to-thin-red{
+	color:#E54C3C;
+}
+.to-thin-white{
+	color:#FFFFFF;
+}
+/* 分割线 */
+.divid{
+	width:1px;
+	height:304px;
+	background:#DEDEDE;
+	position:absolute;
+	top:15%;
+	left:50%;
+}
+.spot img,.spot2 img,.spot3 img,.spot4 img{
+	width:22px;
+	height:22px;
+	
+}
+.spot,.spot2,.spot3,.spot4{
+	width:22px;
+	height:22px;
+	position:absolute;
+}
+.spot{
+	top:15%;
+	left:49.3%;
+}
+.spot2{
+	top:35%;
+	left:49.3%;
+}
+.spot3{
+	top:55%;
+	left:49.3%;
+}
+.spot4{
+	top:75%;
+	left:49.3%;
+}
+
+/* 喵讲堂 */
+.teach{
+	height:100px;
+	width:270px;
+}
+.teach-p{
+	color:#828B8A;
+}
+.teach-h4,.teach-h42{
+	color:#E54C3C;
+	font-weight:bold;
+}
+.teach-h4{
+	text-align:right;
+}
+.teach-h42{
+	text-align:left;
+}
+.teach-word{
+	width:150px;
+}
+/* 作何媒体 */
+/* .tuiguang-btn{
+	width:120px;
+	height:35px;
+}
+.tuiguang-btn img{
+	width:117px;
+	height:31px;
+} */
+.b{
+	background:#2F2F2F;
+}
+/* 版权栏 */
+.footer{
+	padding-top:20px;
+	width:100%;
+	height:50px;
+	background:#202228;
+	text-align:center;
+	color:#48494D;
+}

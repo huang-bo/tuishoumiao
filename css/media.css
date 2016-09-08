@@ -1,0 +1,1335 @@
+/* 360*640 */
+@media (max-width:375px){
+	/* 侧栏 */
+	.tip-box{width:auto;}
+	.tip-footer{
+		display:none;
+	}
+	.qq-img,.back-img{
+		float:none;
+	}
+	/* ---- */
+	.span-nav{
+		display:none;
+	}
+	.col-360{
+		width:45%;
+	}
+	.tuiguang-360{
+		width:70%;
+		height:70%;
+		margin-left:40%;
+		margin-top:3%;
+	}
+	.logo-360{
+		width:95px;
+		height:28px;
+	}
+	/* 广告图 */
+	#imgTwo,#imgThree{
+		width:55%;
+		height:50%;
+		position:absolute;
+		top:50%;
+		left:25%;
+	}
+	#imgOne{
+		width:58%;
+		height:50%;
+		position:absolute;
+		top:50%;
+		left:21%;
+	}
+	/* 喵家族 ------------------------------------------------- */
+
+	 .familyContent{
+		 width:100%;
+		 margin-top:10px;
+		 margin-left:0%;
+	 }
+	 .row-margin{
+		margin-bottom: 5px;
+	 }
+	 .family-bottom{
+		 margin-bottom:5px;
+	 }
+	.family{
+		width:100%;
+		height:100px;
+		margin:auto;
+	}
+	.p-width{
+		width:100%;
+	}
+	.family h3{
+		font-size:16px;
+		text-align:center;
+	}
+	.family p{
+		font-size:12px;
+	}
+	.miaomeiti{
+		display:none;
+	}
+	.icon img{
+		width:30px;
+		height:30px;
+		margin-top:20px;
+	}
+	.word{
+		margin-left:10px;
+		width:100px;
+		height:70px;
+	}
+	.pgray,.pred{
+		font-size:10px;
+	}
+	/* 箭头 */
+	.jiantou,.jiantou2{
+		display:none;
+	}
+/* 喵实力 */
+	.shili-360{
+		display:none;
+	}
+/* 谁是喵主 */
+	.block-padding{
+		padding-bottom:5px;
+	}
+	.miaozhu-360{
+		width:100%;
+	}
+	.person,.person2{
+		width:40px;
+		height:40px;
+	}
+	.miaotou,.tuoyuan{
+		display:none;
+	}
+	.content,.content2,.content3,.content4{
+		width:100%;
+		height:100px;
+		margin:auto;
+		position:relative;
+	}
+	.content{
+		top:0px;
+		right:14%;
+	}
+	.content2{
+		top:10%;
+		right:2%;
+	}
+	.content3{
+		top:0px;
+		left:7%;
+	}
+	.content4{
+		top:50%;
+		left:18%;
+	}
+	.jieshao2{
+		width:50%;
+		position:relative;
+	}
+	.zhup{
+		width:75%;
+		overflow:hidden;
+	}
+/* 喵套餐 */
+	#to-taocan,#myMeal,.xiaoguo,#to-liucheng,.miao-liucheng,#to-pingjia,.miaozhushuo,#to-anli,.anli,#to-jiangtang,.to-jiangtang,#to-parter,#mediaImg{
+		display:none;
+	}
+/* 喵流程 */
+	.a{
+		z-index:6000;
+	}
+	.process,.process2,.process3,.process4,.process5{
+		width:100px;
+		height:150px;
+		border:none;
+		box-shadow:none;
+		position:absolute;
+		z-index:5000;
+		
+	}
+	
+	.process{
+		top:-20px;
+		left:14%;
+	}
+	.process2{
+		top:-70px;
+		left:32%;
+	}
+	.process3{
+		top:-20px;
+		left:48%;
+	}
+	.process4{
+		top:-70px;
+		left:65%;
+	}
+	.process5{
+		top:-20px;
+		left:83%;
+	}
+/* 喵主说 */
+	.zhu-img{
+		width:50px;
+		height:40px;
+	}
+	.zhu-img{
+		position:absolute;
+		top:10%;
+		left:37%;
+	}
+	.zhu-content{
+		position:absolute;
+		height:50%;
+		width:70%;
+		top:35%;
+		left:15%;
+	}
+	.zhu-p{
+		font-size:7px;
+	}
+/* 喵案例 */
+	.case-dialog,.case-dialog2{
+		width:auto;
+		height:auto;
+	}
+	.case-img{
+		width:25%;
+		height:25%;
+		position:absolute;
+		top:15%;
+		left:10%;
+	}
+	.divid{
+		width:1px;
+		height:67%;
+		background:#DEDEDE;
+		position:absolute;
+		top:15%;
+		left:50%;
+	}
+	.spot,.spot2,.spot3,.spot4{
+		left:48.6%;
+	}
+	.case-content{
+		width:40%;
+		height:40%;
+		position:absolute;
+		top:0%;
+		left:40%;
+	}
+/* 喵讲堂 */
+	.teach{
+		height:30%;
+		width:80%;
+	}
+	.jiangtang{
+		margin-left:8%;
+	}
+	.guanzhu{
+		margin-left:8%;
+		margin-right:8%;
+	}
+	.teach-word{
+		width:160%;
+		margin-left:-40%;
+	}
+	
+	/* 公共样式------------------------------------------------------------------------ */
+	 .block-margin{
+		margin-top:50px;
+		border-bottom:2px solid #DEDEDE;
+	 }
+	 .block-padding{
+		padding-top:50px;
+	}
+	 p{
+		 font-size:10px;
+	 }
+	 h2{
+		 font-size:18px;
+	 }
+	 h3{
+		 font-size:16px;
+	 }
+	 
+	 h4{
+		 font-size:14px;
+	 }
+}
+/* 800*1280--------------------------------------------------------------------------------------------------------------- */
+@media (min-width: 361px) and (max-width:800px){
+	.span-nav{
+		margin-top:5px;
+		font-size:12px;
+		color:#FFFFFF;
+		text-align:right;
+	}
+	.span-nav span{
+		margin-left:10px;
+	}
+	/* 广告图 */
+	#imgTwo,#imgThree{
+		width:55%;
+		height:50%;
+		position:absolute;
+		top:50%;
+		left:25%;
+	}
+	#imgOne{
+		width:58%;
+		height:50%;
+		position:absolute;
+		top:50%;
+		left:21%;
+	}
+	/* 喵家族 ------------------------------------------------- */
+	.family-800{
+		padding-right:0;
+		width:50%;
+	}
+	 .familyContent{
+		 margin-top:50px;
+		 margin-left:5%;
+	 }
+	 .family-bottom{
+		 margin-bottom:5px;
+	 }
+	.family{
+		width:300px;
+		height:100px;
+		margin:auto;
+	}
+	.family h3{
+		font-size:16px;
+		text-align:center;
+	}
+	.family p{
+		font-size:12px;
+	}
+	.miaomeiti{
+		margin-top:20px;
+	}
+	.icon img{
+		width:50px;
+		height:50px;
+	}
+	.word{
+		margin-left:10px;
+		width:140px;
+		height:70px;
+	}
+	.pgray,.pred{
+		font-size:10px;
+	}
+	/* 箭头 */
+	.jiantou,.jiantou2{
+		width:25px;
+		height:40px;
+		position:absolute;
+	}
+	.jiantou{
+		top:45%;
+		left:-20px;
+	}
+	.jiantou2{
+		top:45%;
+		left:190px;
+	}
+/* 喵实力 */
+	.miaoshili-mar{
+		margin-left:5%;
+	}
+/* 谁是喵主 */
+	.person,.person2{
+		width:60px;
+		height:60px;
+	}
+	.miaotou{
+		width:75px;
+		height:64px;
+	}
+	#baobao{
+		position:absolute;
+		top:35%;
+		left:0;
+	}
+	.content,.content2,.content3,.content4{
+		width:300px;
+		height:100px;
+		position:absolute;
+	}
+	.content{
+		top:0px;
+		right:57%;
+	}
+	.content2{
+		top:50%;
+		right:58%;
+	}
+	.content3{
+		top:0px;
+		left:57%;
+	}
+	.content4{
+		top:50%;
+		left:58%;
+	}
+	.zhup{
+		width:75%;
+		overflow:hidden;
+	}
+/* 喵套餐 */
+	.tr-height{
+		height:58.6px;
+	}
+	.h1-top{
+		margin-top:380%;
+	}
+/* 喵流程 */
+	.a{
+		z-index:6000;
+	}
+	.process,.process2,.process3,.process4,.process5{
+		width:100px;
+		height:150px;
+		border:none;
+		box-shadow:none;
+		position:absolute;
+		z-index:5000;
+		
+	}
+	
+	.process{
+		top:-20px;
+		left:14%;
+	}
+	.process2{
+		top:-70px;
+		left:32%;
+	}
+	.process3{
+		top:-20px;
+		left:48%;
+	}
+	.process4{
+		top:-70px;
+		left:65%;
+	}
+	.process5{
+		top:-20px;
+		left:83%;
+	}
+/* 喵主说 */
+	.zhu-img{
+		width:50px;
+		height:40px;
+	}
+	.zhu-img{
+		position:absolute;
+		top:10%;
+		left:37%;
+	}
+	.zhu-content{
+		position:absolute;
+		height:50%;
+		width:70%;
+		top:35%;
+		left:15%;
+	}
+	.zhu-p{
+		font-size:7px;
+	}
+/* 喵案例 */
+	.case-dialog,.case-dialog2{
+		width:auto;
+		height:auto;
+	}
+	.case-img{
+		width:25%;
+		height:25%;
+		position:absolute;
+		top:15%;
+		left:10%;
+	}
+	.divid{
+		width:1px;
+		height:67%;
+		background:#DEDEDE;
+		position:absolute;
+		top:15%;
+		left:50%;
+	}
+	.spot,.spot2,.spot3,.spot4{
+		left:48.6%;
+	}
+	.case-content{
+		width:40%;
+		height:40%;
+		position:absolute;
+		top:0%;
+		left:40%;
+	}
+/* 喵讲堂 */
+	.teach{
+		height:30%;
+		width:80%;
+	}
+	.jiangtang{
+		margin-left:8%;
+	}
+	.guanzhu{
+		margin-left:8%;
+		margin-right:8%;
+	}
+	.teach-word{
+		width:160%;
+		margin-left:-40%;
+	}
+	
+	/* 公共样式------------------------------------------------------------------------ */
+	 .block-margin{
+		margin-top:50px;
+		border-bottom:2px solid #DEDEDE;
+	 }
+	 .block-padding{
+		padding-top:50px;
+	}
+	 p{
+		 font-size:12px;
+	 }
+	 h2{
+		 font-size:18px;
+	 }
+	 h3{
+		 font-size:16px;
+	 }
+	 
+	 h4{
+		 font-size:14px;
+	 }
+}
+
+/* --------------------------------------------------------------------------------------------- */
+/* 1024*600 */
+@media (min-width:801px) and (max-width:1024px){
+	.span-nav{
+		margin-top:5px;
+		font-size:15px;
+		color:#FFFFFF;
+		text-align:right;
+	}
+	.span-nav span{
+		margin-left:10px;
+	}
+	/* 广告图 */
+	#imgTwo,#imgThree{
+		width:55%;
+		height:50%;
+		position:absolute;
+		top:50%;
+		left:25%;
+	}
+	#imgOne{
+		width:58%;
+		height:50%;
+		position:absolute;
+		top:50%;
+		left:21.4%;
+	}
+/* 喵家族 ------------------------------------------------- */
+	 .familyContent{
+		 margin-top:15px;
+		 margin-left:5%;
+	 }
+	 .family-bottom{
+		 margin-bottom:5px;
+	 }
+	.family{
+		width:300px;
+		height:100px;
+		margin:auto;
+	}
+	.family h3{
+		font-size:16px;
+		text-align:center;
+	}
+	.family p{
+		font-size:12px;
+	}
+	.miaomeiti{
+		margin-top:-20px;
+	}
+	.icon img{
+		width:60px;
+		height:60px;
+	}
+	.word{
+		margin-left:10px;
+		width:160px;
+		height:70px;
+	}
+	.pgray,.pred{
+		font-size:10px;
+	}
+	/* 箭头 */
+	.jiantou,.jiantou2{
+		width:25px;
+		height:40px;
+		position:absolute;
+	}
+	.jiantou{
+		top:80px;
+		left:-20px;
+	}
+	.jiantou2{
+		top:80px;
+		left:100%;
+	}
+	/* 谁是喵主 */
+	.person,.person2{
+		width:70px;
+		height:70px;
+		margin-top:2%;
+	}
+	.jieshao{
+		width:70%;
+		height:40%;
+		text-align:right;
+		color:#FFFFFF;
+	}
+	.miaotou{
+		width:95px;
+		height:84px;
+	}
+	#baobao{
+		position:absolute;
+		top:35%;
+		left:0;
+	}
+	.content,.content2,.content3,.content4{
+		width:300px;
+		height:100px;
+		position:absolute;
+	}
+	.content{
+		top:2%;
+		right:57%;
+	}
+	.content2{
+		top:68%;
+		right:58%;
+	}
+	.content3{
+		top:2%;
+		left:57%;
+	}
+	.content4{
+		top:68%;
+		left:58%;
+	}
+	.zhup{
+		width:90%;
+		overflow:hidden;
+	}
+/* 喵套餐 */
+	.tr-height{
+		height:61.5px;
+	}
+	.h1-top{
+		margin-top:280%;
+	}
+/* 喵流程 */
+	.a{
+		z-index:6000;
+	}
+	.process,.process2,.process3,.process4,.process5{
+		width:100px;
+		height:150px;
+		border:none;
+		box-shadow:none;
+		position:absolute;
+		z-index:5000;
+		
+	}
+	
+	.process{
+		top:-20px;
+		left:14%;
+	}
+	.process2{
+		top:-55px;
+		left:31.6%;
+	}
+	.process3{
+		top:-20px;
+		left:47%;
+	}
+	.process4{
+		top:-50px;
+		left:62%;
+	}
+	.process5{
+		top:-20px;
+		left:78%;
+	}
+/* 喵主说 */
+	.zhu-img{
+		width:65px;
+		height:50px;
+	}
+	.zhu-img{
+		position:absolute;
+		top:10%;
+		left:37%;
+	}
+	.zhu-content{
+		position:absolute;
+		height:50%;
+		width:70%;
+		top:35%;
+		left:15%;
+	}
+	.zhu-p{
+		font-size:10px;
+	}
+/* 喵案例 */
+	.case-dialog,.case-dialog2{
+		width:auto;
+		height:auto;
+	}
+	.case-img{
+		width:25%;
+		height:25%;
+		position:absolute;
+		top:15%;
+		left:10%;
+	}
+	.divid{
+		width:1px;
+		height:65%;
+		background:#DEDEDE;
+		position:absolute;
+		top:15%;
+		left:50%;
+	}
+	.spot,.spot2,.spot3,.spot4{
+		left:49%;
+	}
+	.case-content{
+		width:40%;
+		height:40%;
+		position:absolute;
+		top:10%;
+		left:40%;
+	}
+/* 喵讲堂 */
+	.teach{
+		height:30%;
+		width:80%;
+	}
+	.jiangtang{
+		margin-left:8%;
+	}
+	.guanzhu{
+		margin-left:8%;
+		margin-right:8%;
+	}
+	.teach-word{
+		width:160%;
+		margin-left:-40%;
+	}
+	
+	/* 公共样式------------------------------------------------------------------------ */
+	 .block-margin{
+		margin-top:70px;
+		border-bottom:2px solid #DEDEDE;
+	 }
+	 .block-padding{
+		padding-top:70px;
+	}
+	 p{
+		 font-size:12px;
+	 }
+	 h2{
+		 font-size:20px;
+	 }
+	 h3{
+		 font-size:18px;
+	 }
+	 
+	 h4{
+		 font-size:16px;
+	 }
+}
+/* ---------------------------------------------------------------------- */
+@media (min-width: 1025px) and (max-width: 1280px){
+	/* 喵流程 */
+	.process,.process2,.process3,.process4,.process5{
+		width:100px;
+		height:150px;
+		border:none;
+		box-shadow:none;
+		position:absolute;
+		z-index:5000;
+		
+	}
+	
+	.process{
+		top:-20px;
+		left:18%;
+	}
+	.process2{
+		top:-50px;
+		left:32%;
+	}
+	.process3{
+		top:-20px;
+		left:45.5%;
+	}
+	.process4{
+		top:-50px;
+		left:59%;
+	}
+	.process5{
+		top:-20px;
+		left:72.5%;
+	}
+	/* 喵主说 */
+	.zhu-img{
+		width:94px;
+		height:75px;
+	}
+	.zhu-img{
+		position:absolute;
+		top:10%;
+		left:35%;
+	}
+	.zhu-content{
+		position:absolute;
+		height:50%;
+		width:70%;
+		top:40%;
+		left:15%;
+	}
+	.zhu-p{
+		font-size:12px;
+	}
+}
+@media (min-width: 1281px) and (max-width: 1366px){
+	.content{
+		top:0px;
+		right:55.5%;
+	}
+	.content2{
+		top:200px;
+		right:55.5%;
+	}
+	.content3{
+		top:0px;
+		left:55.5%;
+	}
+	.content4{
+		top:200px;
+		left:55.5%;
+	}
+	
+	/* ----------- */
+	.process{
+		top:-20px;
+		left:250px;
+	}
+	.process2{
+		top:-40px;
+		left:32%;
+	}
+	.process3{
+		top:-20px;
+		left:45.25%;
+	}
+	.process4{
+		top:-40px;
+		left:59%;
+	}
+	.process5{
+		top:-20px;
+		left:72%;
+	}
+}
+@media (min-width: 1367px) and (max-width: 1400px){
+	/* 喵家族 ------------------------------------------------- */
+	 .familyContent{
+		 margin-top:80px;
+	 }
+	.miaomeiti{
+		margin-top:40px;
+	}
+	/* 箭头 */
+	.jiantou,.jiantou2{
+		width:40px;
+		height:30px;
+		position:absolute;
+	}
+	.jiantou{
+		top:140px;
+		left:-10px;
+	}
+	.jiantou2{
+		top:140px;
+		left:310px;
+	}
+/* 喵套餐 */
+	.h1-top{
+			margin-top:195%;
+	}
+/* 喵流程 */
+	.process,.process2,.process3,.process4,.process5{
+		width:100px;
+		height:150px;
+		border:none;
+		box-shadow:none;
+		position:absolute;
+		z-index:5000;
+		
+	}
+	
+	.process{
+		top:-20px;
+		left:18%;
+	}
+	.process2{
+		top:-50px;
+		left:32%;
+	}
+	.process3{
+		top:-20px;
+		left:45%;
+	}
+	.process4{
+		top:-50px;
+		left:59%;
+	}
+	.process5{
+		top:-20px;
+		left:72.5%;
+	}
+
+/* 喵主说 */
+	.zhu-img{
+		width:123px;
+		height:94px;
+	}
+	.zhu-img{
+		position:absolute;
+		top:9.5%;
+		left:32%;
+	}
+	.zhu-content{
+		position:absolute;
+		height:50%;
+		width:65%;
+		top:45%;
+		left:18%;
+	}
+	.zhu-p{
+		font-size:14px;
+	}
+}
+
+@media (min-width: 1401px) and (max-width: 1600px){
+	#imgTwo,#imgThree{
+		width:55%;
+		height:50%;
+		position:absolute;
+		top:50%;
+		left:25%;
+	}
+	#imgOne{
+		width:58%;
+		height:50%;
+		position:absolute;
+		top:50%;
+		left:21.3%;
+	}
+	/* 喵家族 ------------------------------------------------- */
+	 .familyContent{
+		 margin-top:80px;
+	 }
+	.miaomeiti{
+		margin-top:40px;
+	}
+	/* 箭头 */
+	.jiantou,.jiantou2{
+		width:40px;
+		height:30px;
+		position:absolute;
+	}
+	.jiantou{
+		top:140px;
+		left:-6px;
+	}
+	.jiantou2{
+		top:140px;
+		left:350px;
+	}
+/* 喵流程 */
+	.miao-liucheng{
+		padding-left:5%;
+	}
+	.process,.process2,.process3,.process4,.process5{
+		width:100px;
+		height:150px;
+		border:none;
+		box-shadow:none;
+		position:absolute;
+		z-index:5000;
+		
+	}
+	
+	.process{
+		top:-20px;
+		left:19.5%;
+	}
+	.process2{
+		top:-40px;
+		left:32%;
+	}
+	.process3{
+		top:-20px;
+		left:44.8%;
+	}
+	.process4{
+		top:-40px;
+		left:57.5%;
+	}
+	.process5{
+		top:-20px;
+		left:70%;
+	}
+/* 喵套餐 */
+	.h1-top{
+		margin-top:185%;
+	}
+
+/* 喵主说 */
+	.zhu-img{
+		width:123px;
+		height:94px;
+	}
+	.zhu-img{
+		position:absolute;
+		top:10%;
+		left:34%;
+	}
+	.zhu-content{
+		position:absolute;
+		height:50%;
+		width:60%;
+		top:45%;
+		left:20%;
+	}
+	.zhu-p{
+		font-size:14px;
+	}
+}
+@media (min-width: 1920px){
+	.span-nav{
+		margin-top:5px;
+		font-size:18px;
+		color:#FFFFFF;
+		text-align:right;
+	}
+	.span-nav span{
+		margin-left:20px;
+	}
+	/* 广告图 */
+	#imgTwo,#imgThree{
+		width:55%;
+		height:50%;
+		position:absolute;
+		top:50%;
+		left:25%;
+	}
+	#imgOne{
+		width:58%;
+		height:50%;
+		position:absolute;
+		top:50%;
+		left:21%;
+	}
+/* 喵家族 ------------------------------------------------- */
+	 .familyContent{
+		 margin-left:5%;
+	 }
+	 .miaomeiti{
+		 margin-top:10%;
+	 }
+	
+	/* 箭头 */
+	.jiantou,.jiantou2{
+		width:20px;
+		height:30px;
+		position:absolute;
+	}
+	.jiantou{
+		top:120px;
+		left:0px;
+	}
+	.jiantou2{
+		top:120px;
+		left:90%;
+	}
+/* 谁是喵主 */
+	.person,.person2{
+		width:90px;
+		height:85px;
+	}
+	.miaotou{
+		width:95px;
+		height:86px;
+	}
+	#baobao{
+		position:absolute;
+		top:37%;
+		left:0;
+	}
+	.content,.content2,.content3,.content4{
+		width:350px;
+		height:100px;
+		position:absolute;
+	}
+	.content{
+		top:0px;
+		right:53%;
+	}
+	.content2{
+		top:57%;
+		right:53%;
+	}
+	.content3{
+		top:0px;
+		left:54%;
+	}
+	.content4{
+		top:57%;
+		left:54%;
+	}
+	.zhup{
+		width:90%;
+		overflow:hidden;
+	}
+/* 喵套餐 */
+	.tr-height{
+		height:64px;
+	}
+	.h1-top{
+		margin-top:160%;
+	}
+/* 喵流程 */
+	.process,.process2,.process3,.process4,.process5{
+		width:100px;
+		height:150px;
+		border:none;
+		box-shadow:none;
+		position:absolute;
+		z-index:5000;
+		
+	}
+	
+	.process{
+		top:-20px;
+		left:20%;
+	}
+	.process2{
+		top:-20px;
+		left:32%;
+	}
+	.process3{
+		top:-20px;
+		left:43%;
+	}
+	.process4{
+		top:-20px;
+		left:55%;
+	}
+	.process5{
+		top:-20px;
+		left:67%;
+	}
+	.miao-liucheng{
+		padding-left:7%;
+	}
+/* 喵主说 */
+	.miaozhushuo{
+		padding-left:10%;
+	}
+	.zhu-img{
+		width:123px;
+		height:94px;
+	}
+	.zhu-img{
+		position:absolute;
+		top:10%;
+		left:37%;
+	}
+	.zhu-content{
+		position:absolute;
+		height:50%;
+		width:50%;
+		top:45%;
+		left:25%;
+	}
+/* 喵案例 */
+	/* .case-dialog,.case-dialog2{
+		width:auto;
+		height:auto;
+	}
+	.case-img{
+		width:25%;
+		height:25%;
+		position:absolute;
+		top:15%;
+		left:10%;
+	}
+	.divid{
+		width:1px;
+		height:65%;
+		background:#DEDEDE;
+		position:absolute;
+		top:15%;
+		left:50%;
+	}
+	.spot,.spot2,.spot3,.spot4{
+		left:49%;
+	}
+	.case-content{
+		width:40%;
+		height:40%;
+		position:absolute;
+		top:10%;
+		left:40%;
+	} */
+/* 喵讲堂 */
+	/* .teach{
+		height:30%;
+		width:80%;
+	}
+	.jiangtang{
+		margin-left:8%;
+	}
+	.guanzhu{
+		margin-left:8%;
+		margin-right:8%;
+	}
+	.teach-word{
+		width:160%;
+		margin-left:-40%;
+	} */
+	
+	/* 公共样式------------------------------------------------------------------------ */
+	 
+	
+}
+
+@media (min-width: 1921px){
+	body{
+		width:1920px;
+		margin:auto;
+		position:relative;
+	}
+	.float-nav{
+		overflow:auto;
+		width:100%;
+		background:#2F2F2F;
+		border:none;
+		position:fixed;
+		z-index:10000;
+		top:0px;
+		left:3%;
+	}
+	
+	.container-fluid{
+		width:1920px;
+		height:auto;
+		margin:auto;
+		overflow:hidden;
+		border-left:1px solid #DEDEDE;
+		border-right:1px solid #DEDEDE;
+	}
+	.content{
+		top:0px;
+		right:54%;
+	}
+	.content2{
+		top:200px;
+		right:54%;
+	}
+	.content3{
+		top:0px;
+		left:54%;
+	}
+	.content4{
+		top:200px;
+		left:54%;
+	}
+	.tr-height{
+		height:64px;
+	}
+	/* ------------------- */
+	.process{
+		top:-20px;
+		left:22%;
+	}
+	.process2{
+		top:-20px;
+		left:32%;
+	}
+	.process3{
+		top:-20px;
+		left:44%;
+	}
+	.process4{
+		top:-20px;
+		left:56%;
+	}
+	.process5{
+		top:-20px;
+		left:67%;
+	}
+	/* 喵主说 */
+	.evaluation{
+		width:300px;
+		height:100px;
+		margin:auto;
+	}
+	.zhu-img{
+		position:absolute;
+		top:25px;
+		left:36%;
+	}
+	.zhu-content{
+		position:absolute;
+		height:160px;
+		width:220px;
+		top:150px;
+		left:27.5%;
+	}
+	.to-red{
+		color:#E54C3C;
+		font-weight:bold;
+	}
+	.to-white{
+		color:#FFFFFF;
+		font-weight:bold;
+	}
+	.to-black{
+		color:#333333;
+		font-weight:bold;
+	}
+}
